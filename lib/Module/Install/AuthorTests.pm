@@ -33,6 +33,12 @@ This plugin adds the following Module::Install commands:
 This declares that the test files found in the directory F<./xt> should be run
 only if the module is being built by an author.  For an explanation, see below.
 
+You may declare multiple test directories by passing a list of tests.  Since
+tests are not recursive by default, it should be safe to use a subdirectory of
+F<./t> for author tests, like:
+
+  author_tests('t/author');
+
 =cut
 
 sub author_tests {
