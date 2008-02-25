@@ -11,4 +11,6 @@ all_from      ('lib/Module/Install/AuthorTests.pm');
 
 requires('Module::Install' => 0.000); # minimum unknown
 
+author_tests  ('xt');
+
 WriteAll();
