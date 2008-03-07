@@ -11,13 +11,13 @@ Module::Install::AuthorTests - designate tests only run by module authors
 
 =head1 VERSION
 
-0.001
+0.002
 
 =cut
 
 use vars qw{$VERSION $ISCORE @ISA};
 BEGIN {
-  $VERSION = '0.001';
+  $VERSION = '0.002';
   $ISCORE  = 1;
   @ISA     = qw{Module::Install::Base};
 }
